@@ -33,6 +33,10 @@ class AppDataContainer(private val context: Context) : AppContainer {
      * Implementation for [ItemsRepository]
      */
     override val itemsRepository: ItemsRepository by lazy {
-        OfflineItemsRepository()
+        /**
+         * OfflineItemsRepository dibuat dengan itemDao
+         * dari instance InventoryDatabase yang sesuai dengan context.
+         */
+        OfflineItemsRepository(InventoryDatabase.getDatabase(context).itemDao())
     }
 }
