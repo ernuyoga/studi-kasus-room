@@ -1,29 +1,11 @@
-Inventory app
-==================================
+Penjelasan Akhir
+----------------
 
-Solution code for Android Basics with Compose.
+Setelah mengikuti langkah-langkah yang ada pada code-lab, aplikasi dapat dijalankan dengan baik.
+Kemudian menambahkan beberapa data dalam database dan mengecek hasilnya pada tabel items.
+Untuk mengecek apakah penambahan datanya berhasil atau tidak, dapat membuka tab App Inspection yang ada pada Android Studio.
 
-Introduction
-------------
+![Tampilan akhir tabel](tampilan_akhir_tabel.png)
 
-This app is an Inventory tracking app. Demos how to add, update, sell, and delete items from the local database.
-This app demonstrated the use of Android Jetpack component [Room](https://developer.android.com/training/data-storage/room) database.
-The app also leverages [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel),
-[Flow](https://developer.android.com/kotlin/flow),
-and [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/).
-
-Pre-requisites
---------------
-
-You need to know:
-- How to create and use composables.
-- How to navigate between composables, and pass data between them.
-- How to use architecture components including ViewModel, Flow, StateFlow and StateUi.
-- How to use coroutines for long-running tasks.
-- SQLite database and the SQLite query language
-
-
-Getting Started
----------------
-
-1. Download and run the app.
+Seperti yang dilihat pada gambar diatas, sudah terdapat 3 data yang baru saja ditambahkan.
+Hal ini menandakan bahwa Room Database sudah berhasil diimplementasikan.
